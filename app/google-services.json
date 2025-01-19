@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1096022769417",
+    "project_id": "exploraplan",
+    "storage_bucket": "exploraplan.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1096022769417:android:3f1b62bc97e7323248ddd8",
+        "android_client_info": {
+          "package_name": "com.rein.exploraplan"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBGktC76_6XNU-JV2yLQgO79YmTH4oTlD0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

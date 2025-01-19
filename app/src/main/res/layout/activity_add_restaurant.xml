@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <EditText
+            android:id="@+id/editTextText2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="36dp"
+            android:padding="12dp"
+            android:ems="10"
+            android:inputType="text"
+            android:hint="Name"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <EditText
+            android:id="@+id/editTextTextMultiLine"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="12dp"
+            android:ems="10"
+            android:gravity="start|top"
+            android:hint="desc"
+            android:inputType="textMultiLine"
+            app:layout_constraintTop_toBottomOf="@+id/editTextText2"
+            tools:layout_editor_absoluteX="48dp" />
+
+        <EditText
+            android:id="@+id/cuisine"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="12dp"
+            android:ems="10"
+            android:inputType="text"
+            android:hint="cuisine"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/editTextTextMultiLine"/>
+
+        <EditText
+            android:id="@+id/diets"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="12dp"
+            android:ems="10"
+            android:gravity="start|top"
+            android:hint="diets"
+            android:inputType="textMultiLine"
+            app:layout_constraintTop_toBottomOf="@+id/cuisine"
+            tools:layout_editor_absoluteX="48dp" />
+
+        <EditText
+            android:id="@+id/editTextText3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="12dp"
+            android:ems="10"
+            android:inputType="text"
+            android:hint="@string/address"
+            app:layout_constraintTop_toBottomOf="@+id/diets"
+            tools:layout_editor_absoluteX="44dp" />
+
+        <EditText
+            android:id="@+id/editTextNumberDecimal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="12dp"
+            android:ems="10"
+            android:inputType="text"
+            android:hint="price"
+            app:layout_constraintTop_toBottomOf="@+id/editTextText3"
+            tools:layout_editor_absoluteX="44dp" />
+
+        <EditText
+            android:id="@+id/editTextTime"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="12dp"
+            android:ems="10"
+            android:inputType="text"
+            android:hint="open time"
+            app:layout_constraintTop_toBottomOf="@+id/editTextNumberDecimal"
+            tools:layout_editor_absoluteX="44dp" />
+
+        <EditText
+            android:id="@+id/editTextTime2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="12dp"
+            android:ems="10"
+            android:hint="close time"
+            android:inputType="text"
+            app:layout_constraintTop_toBottomOf="@+id/editTextTime"
+            tools:layout_editor_absoluteX="51dp" />
+
+        <EditText
+            android:id="@+id/editTextNumberDecimal2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="12dp"
+            android:ems="10"
+            android:inputType="numberDecimal"
+            android:hint="rate"
+            app:layout_constraintTop_toBottomOf="@+id/editTextTime2"
+            tools:layout_editor_absoluteX="42dp" />
+
+        <EditText
+            android:id="@+id/editTextText4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="12dp"
+            android:ems="10"
+            android:inputType="text"
+            android:hint="addImage"
+            app:layout_constraintTop_toBottomOf="@+id/editTextNumberDecimal2"
+            tools:layout_editor_absoluteX="49dp" />
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Add"
+            app:layout_constraintTop_toBottomOf="@+id/editTextText4"
+            tools:layout_editor_absoluteX="125dp" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</androidx.core.widget.NestedScrollView>

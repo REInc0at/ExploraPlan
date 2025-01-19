@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="primary_color">#203856</color>
+    <color name="primary_variant">#62AEDC</color>
+    <color name="primary_variant_light">#4062AEDC</color>
+    <color name="second_color">#E28C00</color>
+    <color name="second_variant">#ECCD00</color>
+    <color name="second_variant_light">#40ECCD00</color>
+    <color name="background_color">#F6F5F3</color>
+    <color name="shadow_color">#111D2D</color>
+    <color name="shadow_color_light">#66111D2D</color>
+</resources>

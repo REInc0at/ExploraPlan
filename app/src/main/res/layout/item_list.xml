@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/box"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:alpha="0.65"
+        android:src="@drawable/bg4"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <ImageView
+        android:id="@+id/aDestinationImageView"
+        android:layout_width="250dp"
+        android:layout_height="200dp"
+        android:layout_margin="12dp"
+
+        android:scaleType="centerCrop"
+        android:src="@drawable/arroceros_forest_park"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent" />
+
+    <TextView
+        android:id="@+id/DescriptionText"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="12dp"
+        android:paddingTop="5dp"
+        android:paddingEnd="16dp"
+        android:paddingBottom="10dp"
+        android:text="Arroceros Park"
+        android:textAppearance="?android:textAppearanceMedium"
+        android:textColor="@color/shadow_color"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toStartOf="@+id/aDestinationImageView"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/aDestinationImageView" />
+
+    <TextView
+        android:id="@+id/rateText"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:paddingStart="5dp"
+        android:paddingTop="5dp"
+        android:paddingEnd="5dp"
+        android:paddingBottom="5dp"
+        android:text="Arroceros Forest Park is a lush, green park in the heart of Manila, often referred to as the Last Lung of Manila./ "
+        android:textSize="12sp"
+        android:textStyle="normal"
+        android:textColor="@color/shadow_color"
+        app:layout_constraintEnd_toStartOf="@+id/aDestinationImageView"
+        app:layout_constraintStart_toStartOf="@+id/DescriptionText"
+        app:layout_constraintTop_toBottomOf="@+id/DescriptionText" />
+
+    <Button
+        android:id="@+id/play_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/secondary_btn"
+        android:elevation="10dp"
+        android:letterSpacing="0.1"
+        android:stateListAnimator="@null"
+        android:text="Learn More"
+        android:textColor="@color/shadow_color"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:backgroundTint="@null"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/aDestinationImageView"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/rateText" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
